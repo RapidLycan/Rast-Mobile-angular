@@ -1,0 +1,26 @@
+.box {
+  padding: 50px;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+  margin: 0 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 300px;
+}
+
+.content {
+  margin: 180px 0;
+}
+
+p {
+  color: grey;
+}
+
+.spacer {
+  width: 50px;
+}

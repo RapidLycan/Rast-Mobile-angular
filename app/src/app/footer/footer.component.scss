@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 300px;
+  height: 500px;
+  background-color: #f7f7f7;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: grey;
+  margin: 50px 0;
+}
+
+.spacer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: grey;
+}
+
+.icon {
+  height: 40px;
+  filter: invert(40%) sepia(85%) saturate(7280%) hue-rotate(199deg)
+    brightness(102%) contrast(101%);
+  margin: 0 10px;
+}
+
+b {
+  width: 40px;
+}

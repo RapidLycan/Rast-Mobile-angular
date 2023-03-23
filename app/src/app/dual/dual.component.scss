@@ -1,0 +1,38 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+.header {
+  color: #0071e3;
+  text-align: center;
+}
+
+.content {
+  margin: 180px 200px;
+  margin-bottom: 100px;
+}
+
+img {
+  height: 250px;
+}
+
+p {
+  color: grey;
+  max-width: 300px;
+}
+
+.icon {
+  margin: 10px;
+}
