@@ -1,0 +1,14 @@
+<!-- <mat-form-field appearance="outline">
+  <mat-label>Outline form field</mat-label>
+  <input matInput placeholder="Placeholder" />
+  <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+  <mat-hint>Hint</mat-hint>
+</mat-form-field>
+ -->
+
+<mat-form-field appearance="fill">
+  <mat-label>e-mail</mat-label>
+  <input matInput value="" #message />
+</mat-form-field>
+
+<button mat-stroked-button (click)="openSnackBar(message.value)">Submit</button>
